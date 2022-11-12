@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:isScrollContainer="false"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/Austria"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:layout_constraintHorizontal_bias="0.5">
+
+                <ImageView
+                    android:id="@+id/Austria_img"
+                    android:layout_width="142dp"
+                    android:layout_height="91dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="Austria_flag"
+                    android:src="@drawable/austria"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/Austria_text"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Австрия"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColorHint="@color/white"
+                    android:textSize="34sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/Austria_img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/Poland"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:layout_constraintHorizontal_bias="0.5"
+                tools:layout_editor_absoluteY="91dp">
+
+                <ImageView
+                    android:id="@+id/Poland_img"
+                    android:layout_width="142dp"
+                    android:layout_height="91dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="Poland_img"
+                    android:src="@drawable/poland"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/Poland_text"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Польша"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColorHint="@color/white"
+                    android:textSize="34sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/Poland_img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/Italy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:layout_constraintHorizontal_bias="0.5"
+                tools:layout_editor_absoluteY="182dp">
+
+                <ImageView
+                    android:id="@+id/Italy_img"
+                    android:layout_width="142dp"
+                    android:layout_height="91dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="Italy_flag"
+                    android:src="@drawable/italy"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/Italy_text"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Италия"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColorHint="@color/white"
+                    android:textSize="34sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/Italy_img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/Columbia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:layout_constraintHorizontal_bias="0.5"
+                tools:layout_editor_absoluteY="273dp">
+
+                <ImageView
+                    android:id="@+id/Columbia_img"
+                    android:layout_width="142dp"
+                    android:layout_height="91dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="Columbia_flag"
+                    android:src="@drawable/coluymbia"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/Columbia_text"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Колумбия"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColorHint="@color/white"
+                    android:textSize="34sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/Columbia_img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/Madagascar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:layout_constraintHorizontal_bias="0.5"
+                tools:layout_editor_absoluteY="364dp">
+
+                <ImageView
+                    android:id="@+id/Madagascar_img"
+                    android:layout_width="142dp"
+                    android:layout_height="91dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="Madagascar_flag"
+                    android:src="@drawable/madagascar"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/Madagascar_text"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Мадагаскар"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColorHint="@color/white"
+                    android:textSize="34sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/Madagascar_img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/Tailand"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:layout_constraintHorizontal_bias="0.5"
+                tools:layout_editor_absoluteY="455dp">
+
+                <ImageView
+                    android:id="@+id/Tailand_img"
+                    android:layout_width="142dp"
+                    android:layout_height="91dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="Tailand_flag"
+                    android:src="@drawable/tailand"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/Tailand_text"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Таиланд"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColorHint="@color/white"
+                    android:textSize="34sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/Tailand_img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/Denmark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:layout_constraintBottom_toTopOf="@+id/Switzerland"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteY="546dp">
+
+                <ImageView
+                    android:id="@+id/Denmark_img"
+                    android:layout_width="142dp"
+                    android:layout_height="91dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="Denmark_flag"
+                    android:src="@drawable/denmark"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/Denmark_text"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Дания"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColorHint="@color/white"
+                    android:textSize="34sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/Denmark_img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/Switzerland"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintTop_toBottomOf="@+id/Denmark">
+
+                <ImageView
+                    android:id="@+id/Switzerland_img"
+                    android:layout_width="142dp"
+                    android:layout_height="91dp"
+                    android:layout_marginStart="16dp"
+                    android:contentDescription="Switzerland_flag"
+                    android:src="@drawable/switzerland"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/Switzerland_text"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:text="Швейцария"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColorHint="@color/white"
+                    android:textSize="34sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/Switzerland_img"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
